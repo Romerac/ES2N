@@ -66,9 +66,9 @@ Para acompanhar a disciplina, recomenda-se o uso das seguintes ferramentas:
 
 - **Git e GitHub**: Para versionamento e entrega dos projetos.
 - **Ferramentas de Modelagem UML**: Astah, Lucidchart, Draw.io, etc.
-- **Prototipação**: Figma, Adobe XD, ou similares.
+- **Prototipação**: Figma.
 - **Gerenciamento de Projetos**: JIRA, Trello, ou ferramentas ágeis.
-- **Inteligência Artificial**: Xmind para mapas mentais.
+- **Inteligência Artificial**: Xmind ou Canva para mapas mentais.
 
 ---
 

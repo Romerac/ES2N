@@ -20,7 +20,7 @@
 |**00304824230**|Jean Ortiz|**@aluno.cps.sp.gov.br**|
 |**00304824230**|Rian Couto|**@aluno.cps.sp.gov.br**|
 |**00304824230**|Thales Godoy|**@aluno.cps.sp.gov.br**|
-|0030482423024|Vinicius Romera|vinicius.carvalho4@aluno.cps.sp.gov.br|
+|**0030482423024**|Vinicius Romera|**vinicius.carvalho4@aluno.cps.sp.gov.br**|
 
 1. **Compreensão do Problema**	
 

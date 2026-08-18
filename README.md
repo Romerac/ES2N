@@ -130,49 +130,6 @@ Empresas, indústrias, ONGs, trabalhadores autônomos, entidades assistenciais o
 
 ---
 
-## 📊 Desempenho Acadêmico
-
-A FATEC Sorocaba obteve nota **4,0** no ENADE 2021 (máximo 5,0), ficando em **20º lugar no Brasil** e **2º no estado de São Paulo** entre 528 cursos. O próximo exame será em **2026**, para alunos com 75% do curso concluído.
-
----
-
-## 🧩 Questões ENADE Comentadas
-
-### Questão 1 (ENADE 2021)
-
-> **Modelos de processo**: cascata e desenvolvimento incremental.
-
-**Análise**:
-
-- O modelo em cascata não prevê validação pelo cliente em todas as fases.
-- No desenvolvimento incremental, os incrementos permitem validar a entrega e atender às necessidades do cliente.
-
-**Resposta correta**: A) As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.
-
----
-
-### Questão 2 (ENADE 2021)
-
-> Gerenciamento de projeto com problemas de comunicação, escopo, qualidade e atrasos.
-
-**Resposta correta**: e) Partes interessadas.
-
----
-
-### Questão 3 (ENADE 2017)
-
-> Modelos de processo: incremental, espiral e cascata.
-
-**Análise**:
-
-- I. Correta: especificação, desenvolvimento e validação são atividades do modelo incremental.
-- II. Incorreta: no modelo espiral, a análise de risco não é atribuída especificamente à fase de modelagem.
-- III. Correta: o modelo cascata é sequencial e sistemático.
-
-**Resposta correta**: d) I e III, apenas.
-
----
-
 ## 📚 Bibliografia
 
 ### Básica:

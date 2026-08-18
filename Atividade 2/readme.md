@@ -1,4 +1,4 @@
-### AULA 2
+# AULA 2
 
 # 🗺️ Mapa Mental - Desenvolvimento Ágil (SCRUM, XP e RUP)
 

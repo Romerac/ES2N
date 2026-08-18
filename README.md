@@ -55,10 +55,8 @@ O conteúdo programático está organizado da seguinte forma:
 
 ## 📂 Estrutura do Repositório
 
-- `\Atividades`: Atividades práticas e exercícios para fixação de conteúdo.
+- `\Atividades`: Atividades práticas, Mapas Mentais e exercícios para fixação de conteúdo.
 - `\Projetos`: Projetos integradores desenvolvidos ao longo do semestre.
-- `\Mapas Mentais`: Mapas mentais criados para síntese e fixação do conteúdo.
-- `\Templates`: Modelos de documentos e artefatos utilizados nos projetos.
 
 ---
 

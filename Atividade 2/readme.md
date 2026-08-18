@@ -147,9 +147,17 @@ Este documento apresenta um mapa mental estruturado sobre as principais metodolo
 
 ## 📚 Referências
 
-- [Scrum Guide](https://scrumguides.org/)
-- [Extreme Programming (XP) - Wiki](https://pt.wikipedia.org/wiki/Extreme_Programming)
-- [IBM RUP Documentation](https://www.ibm.com/docs/pt-br/rup)
+- XP
+  - [O Que É eXtreme Programming](https://www.youtube.com/watch?v=oicEg7xHy-I)
+  - [Extreme Programming (XP) - Wiki](https://www.youtube.com/watch?v=TtIHmw1gtnU)
+
+- RUP
+  - [RUP - Rational Unified Process em 5 Minutos](https://www.youtube.com/watch?v=LLAqBv9YY2k)
+
+- SCRUM
+  - [Scrum - Aprenda Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+  - [Visão de produto no Scrum](https://www.youtube.com/watch?v=vg1S1WYZa6o)
+  - [Scrum - exemplo prático](https://www.youtube.com/watch?v=vpKlvPGaReI)
 
 ---
 

@@ -117,32 +117,6 @@ A extensão universitária é uma atividade obrigatória que integra a matriz cu
 
 ---
 
-## 🧠 Atividade 1 - Mapa Mental
-
-Como primeira atividade, os alunos devem criar um **Mapa Mental** sobre o tema **"Engenharia de Software"**, com base no vídeo indicado em aula.
-
-### Diretrizes para o Mapa Mental:
-
-1. **Ideia Central**: "ENGENHARIA DE SOFTWARE".
-2. **Ramificações**: Conexões entre a ideia central e os subtemas (processos, modelos, requisitos, UML, etc.).
-3. **Palavras-Chave e Imagens**: Utilize palavras e imagens que ativem a memória e facilitem a associação.
-4. **Cores**: Use cores para destacar diferentes áreas e melhorar a compreensão visual.
-
-### Ferramentas Sugeridas:
-
-- [Xmind](https://xmind.app/) (gratuito para até 3 mapas por mês).
-- Papel e caneta (fotografe ou digitalize o resultado).
-
-### Entrega:
-
-O arquivo do mapa mental deve ser enviado para o repositório GitHub do aluno, na pasta:
-
-```
-https://github.com/SEUUSUARIO/ES2N/Atividade1
-```
-
----
-
 ## 📝 Projetos e Equipes
 
 Os projetos serão desenvolvidos em equipes de no máximo **5 alunos**. Cada equipe deve:

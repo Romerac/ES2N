@@ -77,7 +77,7 @@ Para acompanhar a disciplina, recomenda-se o uso das seguintes ferramentas:
 1. Clone este repositório em sua máquina local:
 
    ```bash
-   git clone https://github.com/SEUUSUARIO/ES2N.git
+   git clone https://github.com/romerac/ES2N.git
    ```
 
 2. Navegue pelas pastas para acessar os materiais de cada atividade.

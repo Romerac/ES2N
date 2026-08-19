@@ -61,6 +61,8 @@ A atividade será avaliada considerando:
 □ Criatividade e uso de cores/imagens.
 □ Abrangência dos principais tópicos da aula (Processos, Modelos, Métodos, Ferramentas, Requisitos).
 □ Entrega dentro do prazo e no local correto (GitHub).
+
+
 💡 Dicas para um Bom Mapa Mental
 Comece pelo centro e vá expandindo para fora.
 

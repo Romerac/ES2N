@@ -4,7 +4,6 @@
 > **Contato:** denilce.veloso@cps.sp.gov.br / denilce@gmail.com  
 > **Período:** Agosto/2026
 
----
 
 ## 🎯 Objetivo da Atividade
 
@@ -12,7 +11,6 @@ Construir um **mapa mental** que sintetize os conceitos fundamentais de **Engenh
 
 O mapa mental é uma técnica de estudo que ajuda a organizar ideias, fixar conceitos e facilitar a memorização por meio de representações visuais.
 
----
 
 ## 📹 Material de Apoio
 
@@ -22,7 +20,6 @@ Assista ao vídeo abaixo e anote as **palavras‑chave** mencionadas:
 
 > O vídeo aborda os principais modelos de processo (Cascata, Incremental, etc.) e as atividades típicas do desenvolvimento de software.
 
----
 
 ## 📋 O que deve conter no Mapa Mental
 
@@ -34,7 +31,6 @@ Assista ao vídeo abaixo e anote as **palavras‑chave** mencionadas:
 | **4. Imagens/Ícones** | Acrescente desenhos, símbolos ou ícones para ativar a memória visual. |
 | **5. Cores** | Utilize cores diferentes para cada ramo principal – isso ajuda o cérebro a associar e reter informações. |
 
----
 
 ## 🛠️ Ferramentas Sugeridas
 
@@ -51,7 +47,6 @@ Você pode escolher a forma que preferir:
   - Papel (folha A4 ou maior), canetas coloridas e lápis.
   - Depois, tire uma foto ou digitalize para enviar.
 
----
 
 ## ✅ Critérios de Avaliação (AT1)
 A atividade será avaliada considerando:

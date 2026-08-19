@@ -53,7 +53,7 @@ Você pode escolher a forma que preferir:
 
 ---
 
-✅ Critérios de Avaliação (AT1)
+## ✅ Critérios de Avaliação (AT1)
 A atividade será avaliada considerando:
 
 □ Clareza e organização da informação.
@@ -63,7 +63,7 @@ A atividade será avaliada considerando:
 □ Entrega dentro do prazo e no local correto (GitHub).
 
 
-💡 Dicas para um Bom Mapa Mental
+## 💡 Dicas para um Bom Mapa Mental
 Comece pelo centro e vá expandindo para fora.
 
 Use uma palavra‑chave por linha – isso facilita a leitura.

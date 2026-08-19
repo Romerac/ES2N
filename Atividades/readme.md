@@ -8,6 +8,7 @@
 
 ## 📂 Estrutura do Repositório
 
+```
 ES2N/
 │
 ├── Atividade1/ # Mapa Mental sobre Engenharia de Software
@@ -15,7 +16,7 @@ ES2N/
 ├── 
 │
 └── Extras/ # (opcional) – atividades complementares
-
+```
 ---
 
 ## 📌 Instruções de Entrega

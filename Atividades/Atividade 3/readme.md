@@ -35,16 +35,6 @@ Com base na planilha fornecida com **44 descrições de requisitos não funciona
 
 ---
 
-## 📝 Estrutura da Tabela de Resposta
-
-| # | Descrição do Requisito | Classificação | Subcategoria | Justificativa |
-|---|------------------------|---------------|--------------|---------------|
-| 1 | Texto do requisito... | Produto/Organizacional/Externo | Ex: Desempenho | Breve justificativa |
-| 2 | Texto do requisito... | Produto/Organizacional/Externo | Ex: Portabilidade | Breve justificativa |
-| ... | ... | ... | ... | ... |
-
----
-
 ## 💡 Exemplos de Classificação
 
 | # | Descrição | Classificação | Subcategoria | Justificativa |

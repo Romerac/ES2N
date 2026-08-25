@@ -35,16 +35,6 @@ Com base na planilha fornecida com **44 descrições de requisitos não funciona
 
 ---
 
-## 💡 Exemplos de Classificação
-
-| # | Descrição | Classificação | Subcategoria | Justificativa |
-|---|-----------|---------------|--------------|---------------|
-| 1 | A aplicação deverá funcionar em navegadores Web, havendo apenas restrições quanto as versões dos navegadores... | **Produto** | Portabilidade | Especifica a plataforma/ambiente onde o software deve operar |
-| 8 | A Secretaria de Saúde do estado exige que sejam reportados relatórios mensais com as estatísticas de atendimento. | **Externo** | Regulatório | Origina-se de exigência de órgão externo (Secretaria de Saúde) |
-| 24 | O sistema deverá ser desenvolvido em Java com Spring Boot. | **Organizacional** | Padrão de Implementação | Define a tecnologia de desenvolvimento a ser utilizada |
-
----
-
 ## ⚠️ Observações Importantes
 
 - **Múltiplas Classificações**: Um requisito pode eventualmente pertencer a mais de uma categoria. Nesses casos, justifique sua escolha e indique a classificação principal.

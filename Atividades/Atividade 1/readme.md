@@ -1,7 +1,7 @@
 # 📘 Resumo da Aula 1 – Engenharia de Software 2 (ES2N)
 
 > **Professora:** Mª Denilce Veloso  
-> **Contato:** denilce.veloso@cps.sp.gov.br / denilce@gmail.com  
+> **Contato:** denilce.veloso@cps.sp.gov.br
 > **Período:** Agosto/2026
 
 

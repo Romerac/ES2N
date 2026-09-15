@@ -39,8 +39,6 @@ O projeto e a implementação envolvem:
 - Questões de implementação (linguagens, frameworks, bibliotecas);
 - Desenvolvimento Open Source.
 
----
-
 ### 2. Padrões de Projeto (Design Patterns)
 São modelos de solução para problemas comuns de programação e projeto de software, orientando como organizar classes e objetos. Eles:
 - Representam **boas práticas de design**;
@@ -56,8 +54,6 @@ São modelos de solução para problemas comuns de programação e projeto de so
 | **Observer** | Vários objetos precisam ser avisados quando algo muda | Criar uma relação de "notificação" |
 | **Strategy** | Tenho várias formas de realizar uma determinada operação | Permitir escolher/trocar o algoritmo |
 
----
-
 ### 3. Implementação
 - É o estágio do processo de engenharia de software no qual um **sistema de software executável é desenvolvido**.
 - As atividades de projeto e implementação são invariavelmente **intercaladas** — o processo não é linear.
@@ -70,8 +66,6 @@ Inclui pelo menos três fases principais:
 - **Implementação** – transcreve as decisões de projeto para a linguagem de programação escolhida.
 
 > Em um processo de desenvolvimento orientado a objetos, o **projeto da arquitetura** normalmente é realizado por um **arquiteto de software**.
-
----
 
 ### 4. Projeto Orientado a Objetos com UML
 
@@ -94,8 +88,6 @@ Os processos de projeto orientados a objetos envolvem o desenvolvimento de vári
 - Utilização na análise e no projeto;
 - Auxílio na modelagem.
 
----
-
 ### 5. Modelos de Contexto e Interações de Sistema
 - **Modelo de contexto de sistema**: modelo estrutural que mostra outros sistemas no ambiente do sistema que está sendo desenvolvido.
 - **Modelo de interação**: modelo dinâmico que mostra como o sistema interage com seu ambiente durante o uso.
@@ -104,13 +96,14 @@ Entender esses relacionamentos é essencial para decidir como estruturar a comun
 
 *Exemplos trabalhados em aula: contexto de um sistema de e-commerce (integração com APIs de transporte e pagamento) e contexto de uma estação meteorológica no deserto (Sistema de Controle, Sistema de Informação Meteorológica, Estação Meteorológica e Satélite).*
 
----
-
 ### 6. Ponte entre Requisitos e Análise
 A UML atua como ponte entre a **Fase de Especificação dos Requisitos** e a **Fase de Análise**:
 
-`Especificação dos Requisitos / Modelagem do Contexto do Sistema → Modelo de Casos de Uso (interseção) → Modelo de Classes de Análise / Modelo Conceitual`
-
+`Especificação dos Requisitos / Modelagem do Contexto do Sistema 
+                        ↓ 
+       Modelo de Casos de Uso (interseção)
+                        ↓
+Modelo de Classes de Análise / Modelo Conceitual`
 
 ### 7. Casos de Uso
 **Caso de uso** é uma técnica de especificação que descreve uma sequência de ações que o sistema deve realizar para produzir uma resposta a um ator. Ele detalha **o que** o sistema deve fazer (e não como), descrevendo como uma funcionalidade é utilizada por um ator.

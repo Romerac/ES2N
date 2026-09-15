@@ -125,21 +125,6 @@ A UML atua como ponte entre a **Fase de Especificação dos Requisitos** e a **F
 
 ---
 
-## 💻 Exercício Prático — Faculdade Alpha
-
-A Faculdade Alpha está criando uma aplicação para utilização de vários tipos de usuários (atores):
-- **Alunos** podem: realizar matrícula pela aplicação, solicitar histórico, solicitar transferência, consultar notas e frequência.
-- Quando o aluno **solicita transferência**, ela deve ser **aprovada pelo funcionário da secretaria**.
-- A **secretaria** pode cadastrar, alterar, excluir ou consultar um aluno, além de realizar matrículas.
-- Os **professores** podem incluir, alterar, excluir ou consultar notas e frequência dos alunos.
-- Todos os usuários precisam **fazer login**, podendo **fazer logout** e **recuperar a senha**.
-
-**O que fazer:**
-1. Identificar os atores;
-2. Listar os Requisitos Funcionais;
-3. Elaborar o Diagrama de Caso de Uso.
-
-
 ## 🛠️ Ferramentas Gratuitas Sugeridas para UML
 
 1. Edraw Max
@@ -160,6 +145,22 @@ A Faculdade Alpha está criando uma aplicação para utilização de vários tip
 - MEDEIROS, Ernani. **Desenvolvendo Software com UML 2.0: Definitivo**. Makron Books, 2006.
 - PRESSMAN, Roger S. **Engenharia de Software: Uma Abordagem Profissional**. 7ª ed. Porto Alegre: McGraw-Hill, 2011.
 - SOMMERVILLE, Ian. **Engenharia de Software**. 10ª ed. São Paulo: Pearson, 2019.
+
+---
+
+## 💻 Exercício Prático — Faculdade Alpha
+
+A Faculdade Alpha está criando uma aplicação para utilização de vários tipos de usuários (atores):
+- **Alunos** podem: realizar matrícula pela aplicação, solicitar histórico, solicitar transferência, consultar notas e frequência.
+- Quando o aluno **solicita transferência**, ela deve ser **aprovada pelo funcionário da secretaria**.
+- A **secretaria** pode cadastrar, alterar, excluir ou consultar um aluno, além de realizar matrículas.
+- Os **professores** podem incluir, alterar, excluir ou consultar notas e frequência dos alunos.
+- Todos os usuários precisam **fazer login**, podendo **fazer logout** e **recuperar a senha**.
+
+**O que fazer:**
+1. Identificar os atores;
+2. Listar os Requisitos Funcionais;
+3. Elaborar o Diagrama de Caso de Uso.
 
 ---
 

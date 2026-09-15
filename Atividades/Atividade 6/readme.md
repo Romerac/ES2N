@@ -125,14 +125,6 @@ A UML atua como ponte entre a **Fase de Especificação dos Requisitos** e a **F
 
 ---
 
-## 📝 Exercícios Trabalhados em Aula
-
-1. **Análise de diagrama de caso de uso (negócio/vendas)** — identificação do uso correto dos relacionamentos `<<include>>` e do papel dos atores no diagrama.
-2. **Sistema de vagas (Aluno / Funcionário da Fatec / Empresa)** — identificação de melhorias no diagrama apresentado (ex.: fluxos duplicados e falta de diferenciação clara entre atores).
-3. **Sistema de cardápio (Cliente)** — identificação de um problema estrutural no uso dos relacionamentos `<<include>>` e `<<extend>>`.
-
----
-
 ## 💻 Exercício Prático — Faculdade Alpha
 
 A Faculdade Alpha está criando uma aplicação para utilização de vários tipos de usuários (atores):
@@ -147,9 +139,6 @@ A Faculdade Alpha está criando uma aplicação para utilização de vários tip
 2. Listar os Requisitos Funcionais;
 3. Elaborar o Diagrama de Caso de Uso.
 
-> **Entrega:** subir como `seuusuario/ES2N/Atividade6`
-
----
 
 ## 🛠️ Ferramentas Gratuitas Sugeridas para UML
 
@@ -162,21 +151,6 @@ A Faculdade Alpha está criando uma aplicação para utilização de vários tip
 7. PlantUML
 8. Figma
 9. Miro
-
----
-
-## ⏭️ Próximos Passos do Projeto Integrador
-
-**Discutido em aula:**
-- Versão Proposta (se aplicável);
-- 1ª versão dos Requisitos Funcionais;
-- 2ª versão dos questionários de pesquisa.
-
-**Para a próxima semana:**
-- Acertar questionários (ou forms) e aplicar a pesquisa (**11/09 a 21/09**);
-- Registrar o resultado da pesquisa no template de pesquisa **versão 3.0** (entrega em **22/09**);
-- Elaborar a **2ª versão dos Requisitos Funcionais**;
-- **Organizar o repositório** no GitHub.
 
 ---
 
@@ -193,12 +167,10 @@ A Faculdade Alpha está criando uma aplicação para utilização de vários tip
 
 **Profª Mª Denilce Veloso**
 📧 denilce.veloso@cps.sp.gov.br
-📧 denilce@gmail.com
 
 ---
-
 ## ✒️ Autores
 
-**Aluno da FATEC Sorocaba**
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/romerac)
+**Aluno da FATEC Sorocaba**  
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/romerac)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciusromerac/)

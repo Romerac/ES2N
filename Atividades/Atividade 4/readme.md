@@ -34,8 +34,6 @@ De acordo com Sommerville (2019), todo processo de desenvolvimento inclui quatro
 3. **Validação**: Assegurar que o sistema atende rigorosamente às necessidades e demandas do cliente.
 4. **Evolução**: Adequação e modificação do software para atender a novas necessidades do cliente e mudanças do mercado.
 
----
-
 ### 2. Engenharia de Requisitos – Elicitação de Requisitos
 A elicitação (ou descoberta) ocorre após o estudo de viabilidade, onde a equipe técnica trabalha diretamente com os **stakeholders** (usuários finais, gerentes, equipe de manutenção, especialistas de domínio, etc.) para mapear os serviços do sistema e suas restrições.
 
@@ -51,8 +49,6 @@ A elicitação (ou descoberta) ocorre após o estudo de viabilidade, onde a equi
 3. **Priorização e Negociação**: Resolução de conflitos de requisitos e ordenação por grau de relevância.
 4. **Documentação / Especificação**: Registro formal dos requisitos para realimentar as próximas iterações.
 
----
-
 ### 3. Técnicas de Elicitação de Requisitos
 
 - **Entrevistas**:
@@ -65,8 +61,6 @@ A elicitação (ou descoberta) ocorre após o estudo de viabilidade, onde a equi
 - **Histórias e Cenários**:
   - *Histórias*: Narrativas práticas e sem termos técnicos que facilitam a empatia dos *stakeholders*.
   - *Cenários*: Descrições mais estruturadas e técnicas da interação passo a passo entre usuário e sistema.
-
----
 
 ### 4. Especificação de Requisitos & Notações
 
@@ -83,8 +77,6 @@ A especificação visa registrar os requisitos em um documento formal:
 
 #### ⚠️ Cuidados ao Redigir em Linguagem Natural:
 - Evitar a **Falta de Clareza** (ambiguidade), **Confusão de Requisitos** (misturar funcionais com não funcionais) e **Fusão de Requisitos** (agrupar múltiplos requisitos em uma só frase).
-
----
 
 ### 5. Documento de Requisitos de Software (Padrão IEEE/ANSI 830/1998)
 
@@ -105,14 +97,6 @@ Estrutura recomendada para a elaboração do *Software Requirements Specificatio
 3. **Requisitos Específicos** (Requisitos Funcionais e Não Funcionais)
 4. **Índice**
 5. **Apêndices**
-
----
-
-## ⚠️ Observações Importantes & Orientações para o Projeto Integrador
-
-- **Qualidade dos Questionários**: Ao preparar pesquisas para os *stakeholders*, utilize perguntas curtas e objetivas, evitando questões abertas longas ou pessoais que possam cansar o respondente.
-- **Gestão via GitHub**: Acompanhe todas as tarefas do projeto (A Fazer, Em Andamento, Entregue) no quadro do repositório.
-- **Alinhamento com Disciplinas Futuras**: A documentação produzida nesta disciplina servirá de base direta para as disciplinas de ES3, LES e para o Trabalho de Graduação (TG).
 
 ---
 

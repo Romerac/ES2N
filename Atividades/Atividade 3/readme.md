@@ -45,18 +45,6 @@ Com base na planilha fornecida com **44 descrições de requisitos não funciona
 
 ---
 
-## 📤 Forma de Entrega
-
-A atividade deve ser entregue através do repositório GitHub do aluno, na pasta:
-
-```
-https://github.com/SEUUSUARIO/ES2N/Atividade_RequisitosNaoFuncionais
-```
-
-O arquivo deve conter a tabela preenchida com todas as 44 classificações, incluindo subcategoria e justificativa.
-
----
-
 ## 📚 Referências
 
 - SOMMERVILLE, Ian. **Engenharia de Software**. 10ª ed. Addison Wesley, 2019.
@@ -69,7 +57,6 @@ O arquivo deve conter a tabela preenchida com todas as 44 classificações, incl
 
 **Profª Mª Denilce Veloso**  
 📧 denilce.veloso@cps.sp.gov.br  
-📧 denilce@gmail.com
 
 ---
 

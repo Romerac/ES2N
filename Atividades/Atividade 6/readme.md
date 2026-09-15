@@ -100,11 +100,13 @@ Entender esses relacionamentos é essencial para decidir como estruturar a comun
 A UML atua como ponte entre a **Fase de Especificação dos Requisitos** e a **Fase de Análise**:
 
 
-Especificação dos Requisitos / Modelagem do Contexto do Sistema 
-                        ↓ 
-       Modelo de Casos de Uso (interseção)
-                        ↓
-Modelo de Classes de Análise / Modelo Conceitual
+```
+Especificação dos Requisitos / Modelagem do Contexto do Sistema
+                    ↓
+        Modelo de Casos de Uso (interseção)
+                    ↓
+    Modelo de Classes de Análise / Modelo Conceitual
+```
 
 
 ### 7. Casos de Uso

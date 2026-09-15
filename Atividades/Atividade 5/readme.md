@@ -35,16 +35,12 @@ Compreender e aplicar as etapas finais da Engenharia de Requisitos, focando em:
   - Desperdício de transações financeiras e operacionais;
   - Danos à reputação e credibilidade da organização.
 
----
-
 ### 2. Identificar as cinco principais verificações (ou conferências) que são feitas no processo de validação.
 1. **Verificação da Validade**: Avalia se o sistema oferece as funções que melhor atendem às reais necessidades do cliente e dos usuários finais.
 2. **Verificação da Consistência**: Garante que não existam contradições ou conflitos entre diferentes requisitos especificados.
 3. **Verificação da Completude**: Certifica-se de que todas as funcionalidades, regras de negócio e restrições operacionais solicitadas foram devidamente incluídas.
 4. **Verificação do Realismo**: Examina se os requisitos podem ser efetivamente implementados considerando as limitações tecnológicas, orçamentárias e de prazo.
 5. **Facilidade de Verificação (Verificabilidade)**: Assegura que o requisito é mensurável e testável na prática (através de testes automatizados, inspeções ou documentação).
-
----
 
 ### 3. Quais são as três técnicas principais de validação? Explique.
 1. **Revisões de Requisitos**: Análise manual e sistemática conduzida por uma equipe multidisciplinar (clientes e desenvolvedores) para conferir a clareza, completude, consistência e rastreabilidade do documento.
@@ -62,8 +58,6 @@ Os requisitos de um software são dinâmicos e evoluem devido a:
 - Conflitos de interesses entre quem financia o sistema (clientes) e quem o opera (usuários finais);
 - Amadurecimento do entendimento do problema durante o desenvolvimento.
 
----
-
 ### 2. Rastreabilidade de Requisitos
 Capacidade de acompanhar o histórico e os relacionamentos de cada requisito ao longo do ciclo de vida:
 - **Rastreabilidade da Fonte**: Associa o requisito aos *stakeholders* que o solicitaram.
@@ -71,24 +65,10 @@ Capacidade de acompanhar o histórico e os relacionamentos de cada requisito ao 
 - **Rastreabilidade de Projeto**: Conecta os requisitos aos componentes arquiteturais, módulos de código e tabelas do banco de dados.
 - **Matriz de Rastreabilidade**: Tabela utilizada para visualizar relacionamentos ($R$) e dependências ($D$) diretas entre requisitos.
 
----
 
 ### 3. Ferramentas Recomendadas
 - **Gerenciamento de Requisitos Especializado**: Visure Requirements, IBM Rational DOORS, Jama Software, Helix ALM, ReQtest.
 - **Gestão Ágil e de Projetos**: Jira, Azure DevOps, Trello, Asana.
-
----
-
-## ⚠️ Observações Importantes & Diretrizes do Projeto Integrador
-
-- **Inclusão do TCLE**: Todos os questionários aplicados a usuários devem conter o **Termo de Consentimento Livre e Esclarecido**, garantindo participação voluntária, confidencialidade e uso estritamente acadêmico dos dados.
-- **Entregáveis da Etapa**:
-  - `ES2N-Proposta v4.0` (Revisão da proposta inicial)
-  - `ES2N-Requisitos Funcionais v1.0` (Primeira versão da lista de requisitos)
-  - `ES2N-Anexo Pesquisa v2.0` (Segunda versão dos formulários de pesquisa com campo para sugestões/críticas)
-- **Gestão no GitHub**: Manter o quadro de tarefas (*Board*) atualizado nas colunas *A Fazer*, *Em Andamento* e *Entregue*.
-
----
 
 ---
 

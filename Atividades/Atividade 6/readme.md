@@ -1,206 +1,199 @@
 ![Logo](https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/212/2024/09/logo_fatec_sorocaba.png)
 
-# Engenharia de Software 2 – Aula 06: Modelagem de Casos de Uso (Faculdade Alpha)
+# Engenharia de Requisitos: Projeto e Implementação - Aula 06
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Modelagem%20UML-00599C?style=for-the-badge&logo=unifiedmodelinglanguage&logoColor=white" alt="Modelagem UML"/>
-  <img src="https://img.shields.io/badge/Casos%20de%20Uso-FF6B00?style=for-the-badge&logo=diagramsdotnet&logoColor=white" alt="Casos de Uso"/>
-  <img src="https://img.shields.io/badge/Requisitos%20Funcionais-4CAF50?style=for-the-badge&logo=target&logoColor=white" alt="Requisitos Funcionais"/>
+  <img src="https://img.shields.io/badge/Projeto%20e%20Implementação-FF6B00?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Projeto e Implementação"/>
+  <img src="https://img.shields.io/badge/UML-00599C?style=for-the-badge&logo=bookstack&logoColor=white" alt="UML"/>
+  <img src="https://img.shields.io/badge/Casos%20de%20Uso-4CAF50?style=for-the-badge&logo=target&logoColor=white" alt="Casos de Uso"/>
 </p>
 
----
-
-## 📌 Contexto do Problema (Faculdade Alpha)
-
-A Faculdade Alpha está desenvolvendo uma aplicação acadêmica integrada para atender a diferentes perfis de usuários:
-* **Alunos**: Podem realizar matrícula pela aplicação, solicitar histórico escolar, solicitar transferência e consultar suas notas e frequências.
-* **Funcionário da Secretaria**: Responsável por cadastrar, alterar, excluir ou consultar alunos (CRUD de Aluno), realizar matrícula de aluno e analisar/aprovar as solicitações de transferência iniciadas pelos alunos.
-* **Professores**: Podem incluir, alterar, excluir ou consultar as notas e a frequência dos alunos (CRUD de Notas e Frequência).
-* **Ações Comuns**: Todos os usuários do sistema necessitam realizar autenticação (login), encerramento de sessão (logout) e recuperação de senha.
+Este material sintetiza o conteúdo ministrado na **Aula 6** da disciplina de **Engenharia de Software 2**, pela Profª Mª Denilce Veloso, abordando as fases de **Projeto e Implementação**, o **Projeto Orientado a Objetos com UML**, a construção e interpretação de **Diagramas de Casos de Uso** e o direcionamento prático para a próxima etapa do Projeto Integrador.
 
 ---
 
-## 👥 1. Identificação dos Atores
+## 🎯 Objetivo da Aula
 
-| Ator | Tipo | Descrição das Atribuições |
-| :--- | :---: | :--- |
-| **Usuário** | *Abstrato / Geral* | Ator genérico que representa qualquer pessoa autenticada no sistema. Centraliza os casos de uso comuns de acesso (`Fazer Login`, `Fazer Logout` e `Recuperar Senha`). |
-| **Aluno** | *Especializado* | Ator do tipo estudante. Herda as funcionalidades de `Usuário` e realiza matrícula, solicita histórico, solicita transferência e consulta suas notas e frequências. |
-| **Funcionário da Secretaria** | *Especializado* | Ator administrativo. Herda as funcionalidades de `Usuário`, gerencia os dados cadastrais dos alunos, efetua matrículas e aprova solicitações de transferência. |
-| **Professor** | *Especializado* | Ator docente. Herda as funcionalidades de `Usuário` e possui acesso ao lançamento e gestão das notas e frequências das turmas. |
+Compreender as atividades que compõem o projeto e a implementação de um software, com foco em:
 
----
-
-## 📝 2. Lista de Requisitos Funcionais (RFs)
-
-**Requisitos Comuns (Gerais)**
-* **RF01 - Fazer Login**: O sistema deve permitir que qualquer usuário previamente cadastrado se autentique no sistema utilizando suas credenciais.
-* **RF02 - Fazer Logout**: O sistema deve permitir que o usuário encerre com segurança a sua sessão ativa.
-* **RF03 - Recuperar Senha**: O sistema deve permitir que o usuário solicite a redefinição de sua senha mediante confirmação de e-mail.
-
-**Módulo Aluno**
-* **RF04 - Realizar Matrícula (pelo Aluno)**: O sistema deve permitir que o aluno efetue sua própria rematrícula/matrícula em disciplinas via aplicação.
-* **RF05 - Solicitar Histórico Escolar**: O sistema deve permitir que o aluno solicite e emita seu histórico acadêmico.
-* **RF06 - Solicitar Transferência**: O sistema deve permitir que o aluno abra uma solicitação formal de transferência de curso/instituição.
-* **RF07 - Consultar Notas e Frequência**: O sistema deve permitir que o aluno visualize suas notas parciais/finais e seu percentual de frequência.
-
-**Módulo Secretaria**
-* **RF08 - Gerenciar Aluno (CRUD)**: O sistema deve permitir que o funcionário da secretaria cadastre, altere, exclua e consulte registros de alunos.
-* **RF09 - Realizar Matrícula de Aluno (pela Secretaria)**: O sistema deve permitir que a secretaria efetue ou regularize a matrícula de um aluno manualmente.
-* **RF10 - Aprovar Transferência**: O sistema deve permitir que o funcionário da secretaria analise e aprove (ou recuse) as solicitações de transferência submetidas pelos alunos.
-
-**Módulo Professor**
-* **RF11 - Gerenciar Notas (CRUD)**: O sistema deve permitir que o professor inclua, altere, exclua e consulte as notas dos alunos em suas disciplinas.
-* **RF12 - Gerenciar Frequência (CRUD)**: O sistema deve permitir que o professor inclua, altere, exclua e consulte a chamada/frequência dos alunos.
+- **Projeto e Implementação**: Relacionar as quatro atividades fundamentais de todo processo de software (Especificação, Desenvolvimento, Validação e Evolução).
+- **Padrões de Projeto (Design Patterns)**: Reconhecer sua função como soluções reutilizáveis para problemas recorrentes de design.
+- **UML e Projeto Orientado a Objetos**: Entender a linguagem gráfica utilizada para visualizar, especificar e documentar sistemas.
+- **Modelos de Contexto e Casos de Uso**: Elaborar diagramas que delimitem o sistema e descrevam sua interação com atores externos.
+- **Aplicação Prática**: Exercitar a identificação de atores, requisitos funcionais e a construção de Diagramas de Caso de Uso para o Projeto Integrador.
 
 ---
 
-## 📐 3. Diagrama de Casos de Uso (UML)
+## 📚 Conteúdo Programático & Conceitos Chave
 
-### **PlantUML**
+### 1. Projeto e Implementação
+Todo Processo de Software deve incluir, de alguma forma, quatro atividades fundamentais (cada uma pode ser dividida em subatividades):
+1. **Especificação** → Projeto
+2. **Desenvolvimento** → Implementação
+3. **Validação** → Testes
+4. **Evolução**
 
-```plantuml
-@startuml
-left to right direction
-skinparam packageStyle rectangle
-
-actor "Usuário" as User
-actor "Aluno" as Aluno
-actor "Funcionário da Secretaria" as Sec
-actor "Professor" as Prof
-
-User <|-- Aluno
-User <|-- Sec
-User <|-- Prof
-
-rectangle "Sistema Faculdade Alpha" {
-  usecase "RF01: Fazer Login" as UC_Login
-  usecase "RF02: Fazer Logout" as UC_Logout
-  usecase "RF03: Recuperar Senha" as UC_RecSenha
-
-  usecase "RF04: Realizar Matrícula" as UC_Matricula
-  usecase "RF05: Solicitar Histórico" as UC_Historico
-  usecase "RF06: Solicitar Transferência" as UC_SolTransf
-  usecase "RF07: Consultar Notas e Frequência" as UC_ConsNotasFreq
-
-  usecase "RF08: Gerenciar Aluno (CRUD)" as UC_GerAluno
-  usecase "RF09: Realizar Matrícula de Aluno" as UC_MatriculaSec
-  usecase "RF10: Aprovar Transferência" as UC_AprovTransf
-
-  usecase "RF11: Gerenciar Notas (CRUD)" as UC_GerNotas
-  usecase "RF12: Gerenciar Frequência (CRUD)" as UC_GerFreq
-}
-
-User --> UC_Login
-User --> UC_Logout
-User --> UC_RecSenha
-
-Aluno --> UC_Matricula
-Aluno --> UC_Historico
-Aluno --> UC_SolTransf
-Aluno --> UC_ConsNotasFreq
-
-Sec --> UC_GerAluno
-Sec --> UC_MatriculaSec
-Sec --> UC_AprovTransf
-
-Prof --> UC_GerNotas
-Prof --> UC_GerFreq
-
-UC_AprovTransf ..> UC_SolTransf : <<extend>>
-@enduml
-```
-
-### **Mermaid Diagram**
-
-```mermaid
-graph TD
-    Aluno[🎓 Aluno] -- Generalização --> User[👤 Usuário]
-    Sec[🏫 Funcionário da Secretaria] -- Generalização --> User
-    Prof[👨‍🏫 Professor] -- Generalização --> User
-
-    User --> UC01([RF01 - Fazer Login])
-    User --> UC02([RF02 - Fazer Logout])
-    User --> UC03([RF03 - Recuperar Senha])
-
-    Aluno --> UC04([RF04 - Realizar Matrícula])
-    Aluno --> UC05([RF05 - Solicitar Histórico])
-    Aluno --> UC06([RF06 - Solicitar Transferência])
-    Aluno --> UC07([RF07 - Consultar Notas e Frequência])
-
-    Sec --> UC08([RF08 - Gerenciar Aluno])
-    Sec --> UC09([RF09 - Realizar Matrícula de Aluno])
-    Sec --> UC10([RF10 - Aprovar Transferência])
-
-    Prof --> UC11([RF11 - Gerenciar Notas])
-    Prof --> UC12([RF12 - Gerenciar Frequência])
-
-    UC10 -.->|<<extend>>| UC06
-```
+O projeto e a implementação envolvem:
+- Projeto Orientado a Objetos com UML;
+- Padrões de Projeto (ex.: Singleton, Factory Method, Observer, Strategy);
+- Questões de implementação (linguagens, frameworks, bibliotecas);
+- Desenvolvimento Open Source.
 
 ---
 
-## 🔍 4. Especificação Detalhada de Casos de Uso (Baixo Nível)
+### 2. Padrões de Projeto (Design Patterns)
+São modelos de solução para problemas comuns de programação e projeto de software, orientando como organizar classes e objetos. Eles:
+- Representam **boas práticas de design**;
+- Ajudam a organizar melhor o sistema;
+- Facilitam a manutenção e promovem reutilização;
+- Padronizam soluções;
+- **Não são código pronto** nem linguagem de programação — são ideias/modelos de solução implementados através da programação.
 
-### **Quadro 1. Especificação do Caso de Uso: Solicitar Transferência**
-
-| Campo | Descrição |
-| :--- | :--- |
-| **Caso de Uso** | `RF06: Solicitar Transferência` |
-| **Ator Principal** | Aluno |
-| **Ator Secundário** | Funcionário da Secretaria |
-| **Pré-condição** | O aluno deve estar logado no sistema e ter vínculo ativo. |
-| **Pós-condição** | A solicitação é registrada no sistema aguardando avaliação da secretaria. |
-
-| Ações do Ator | Ações do Sistema |
-| :--- | :--- |
-| **1.** O aluno acessa a opção "Solicitar Transferência". | **2.** O sistema exibe o formulário de transferência com os dados acadêmicos do aluno preenchidos. |
-| **3.** O aluno preenche a justificativa, seleciona a instituição/curso de destino e confirma o envio. | **4.** O sistema valida o preenchimento dos campos obrigatórios. |
-| | **5.** O sistema registra o pedido com status "Pendente de Aprovação" e notifica a secretaria. |
+| Padrão | Problema que ajuda a resolver | Ideia principal |
+|---|---|---|
+| **Singleton** | Preciso garantir uma única instância de uma classe | Controlar a criação de uma única instância |
+| **Factory Method** | Não quero que o código principal fique responsável diretamente por criar objetos | Delegar a criação dos objetos |
+| **Observer** | Vários objetos precisam ser avisados quando algo muda | Criar uma relação de "notificação" |
+| **Strategy** | Tenho várias formas de realizar uma determinada operação | Permitir escolher/trocar o algoritmo |
 
 ---
 
-### **Quadro 2. Especificação do Caso de Uso: Aprovar Transferência**
+### 3. Implementação
+- É o estágio do processo de engenharia de software no qual um **sistema de software executável é desenvolvido**.
+- As atividades de projeto e implementação são invariavelmente **intercaladas** — o processo não é linear.
+- O **projeto de software** é uma atividade criativa na qual se identificam componentes e seus relacionamentos com base nos requisitos do cliente.
+- A **implementação** é o processo de realização do projeto em um programa de computador.
 
-| Campo | Descrição |
-| :--- | :--- |
-| **Caso de Uso** | `RF10: Aprovar Transferência` |
-| **Ator Principal** | Funcionário da Secretaria |
-| **Ator Secundário** | Aluno |
-| **Pré-condição** | O funcionário da secretaria deve estar logado e deve haver solicitações pendentes. |
-| **Pós-condição** | A transferência é aprovada ou indeferida, e o status acadêmico do aluno é atualizado. |
+Inclui pelo menos três fases principais:
+- **Projeto arquitetural** – define a estrutura modular do software (MVC, Camadas, Serviços etc.), as interfaces e as tecnologias de persistência (bancos SQL/NoSQL).
+- **Projeto detalhado** – define a solução para cada módulo do projeto preliminar (ex.: autenticação, gerenciamento de usuário, pagamentos).
+- **Implementação** – transcreve as decisões de projeto para a linguagem de programação escolhida.
 
-| Ações do Ator | Ações do Sistema |
-| :--- | :--- |
-| **1.** O funcionário acessa a opção "Aprovar Transferências". | **2.** O sistema lista todas as solicitações de transferência pendentes. |
-| **3.** O funcionário seleciona uma solicitação para visualizar os detalhes. | **4.** O sistema exibe os detalhes do pedido e os documentos anexados. |
-| **5.** O funcionário altera o status para "Aprovado" ou "Recusado", insere o parecer e confirma. | **6.** O sistema atualiza a situação do pedido, salva o registro e envia notificação ao aluno. |
+> Em um processo de desenvolvimento orientado a objetos, o **projeto da arquitetura** normalmente é realizado por um **arquiteto de software**.
 
 ---
 
-## 📤 5. Forma de Entrega
+### 4. Projeto Orientado a Objetos com UML
 
-Subir esta atividade no repositório individual do GitHub na estrutura de pastas indicada:
+**O que é UML?**
+A UML (*Unified Modeling Language*) é uma linguagem padronizada de modelagem — uma **linguagem gráfica** para visualizar, especificar, construir e documentar um software através de diagramas compostos de gráficos, símbolos e texto, reduzindo ambiguidades e permitindo conexão com diferentes linguagens de programação.
 
-```text
-[https://github.com/SEUUSUARIO/ES2N/Atividade6](https://github.com/SEUUSUARIO/ES2N/Atividade6)
-```
+Os processos de projeto orientados a objetos envolvem o desenvolvimento de vários modelos (Caso de Uso, Classes, Sequência, Atividades, Estado etc.), que exigem esforço tanto no desenvolvimento quanto na manutenção. Vantagens: código mais organizado, manutenção facilitada, reutilização e redução de erros — mas **não é a única abordagem** possível, sendo necessário analisar o **custo-benefício**.
+
+**Estágios do processo**, entre outros:
+- Definição do contexto e interações do sistema;
+- Projeto de arquitetura do sistema;
+- Identificação das principais classes e objetos;
+- Desenvolvimento dos modelos de projeto;
+- Especificações de interface de objetos.
+
+**Objetivos principais da UML:**
+- Delimitação do contexto de um sistema;
+- Documentação e entendimento dos requisitos;
+- Descrição dos requisitos funcionais;
+- Utilização na análise e no projeto;
+- Auxílio na modelagem.
+
+---
+
+### 5. Modelos de Contexto e Interações de Sistema
+- **Modelo de contexto de sistema**: modelo estrutural que mostra outros sistemas no ambiente do sistema que está sendo desenvolvido.
+- **Modelo de interação**: modelo dinâmico que mostra como o sistema interage com seu ambiente durante o uso.
+
+Entender esses relacionamentos é essencial para decidir como estruturar a comunicação do sistema com o ambiente externo e para estabelecer os **limites do sistema** (o que será implementado internamente versus o que ficará a cargo de sistemas associados).
+
+*Exemplos trabalhados em aula: contexto de um sistema de e-commerce (integração com APIs de transporte e pagamento) e contexto de uma estação meteorológica no deserto (Sistema de Controle, Sistema de Informação Meteorológica, Estação Meteorológica e Satélite).*
+
+---
+
+### 6. Ponte entre Requisitos e Análise
+A UML atua como ponte entre a **Fase de Especificação dos Requisitos** e a **Fase de Análise**:
+
+`Especificação dos Requisitos / Modelagem do Contexto do Sistema → Modelo de Casos de Uso (interseção) → Modelo de Classes de Análise / Modelo Conceitual`
+
+---
+
+### 7. Casos de Uso
+**Caso de uso** é uma técnica de especificação que descreve uma sequência de ações que o sistema deve realizar para produzir uma resposta a um ator. Ele detalha **o que** o sistema deve fazer (e não como), descrevendo como uma funcionalidade é utilizada por um ator.
+
+**Relacionamentos importantes na notação:**
+- **`<<include>>`**: o caso de uso incluído é **sempre** executado como parte do fluxo do caso de uso principal.
+- **`<<extend>>`**: o caso de uso estendido é executado **apenas condicionalmente**, em certas circunstâncias.
+- **Generalização/Especialização**: ocorre quando atores possuem características semelhantes (ex.: "Pessoa" generalizando "Aluno", "Professor" e "Assistente").
+
+*Exemplos trabalhados em aula: casos de uso de alto nível da estação meteorológica, de um cardápio digital (visão Administração e visão Cliente), de um sistema de almoxarifado e de um sistema escolar.*
+
+---
+
+## 📝 Exercícios Trabalhados em Aula
+
+1. **Análise de diagrama de caso de uso (negócio/vendas)** — identificação do uso correto dos relacionamentos `<<include>>` e do papel dos atores no diagrama.
+2. **Sistema de vagas (Aluno / Funcionário da Fatec / Empresa)** — identificação de melhorias no diagrama apresentado (ex.: fluxos duplicados e falta de diferenciação clara entre atores).
+3. **Sistema de cardápio (Cliente)** — identificação de um problema estrutural no uso dos relacionamentos `<<include>>` e `<<extend>>`.
+
+---
+
+## 💻 Exercício Prático — Faculdade Alpha
+
+A Faculdade Alpha está criando uma aplicação para utilização de vários tipos de usuários (atores):
+- **Alunos** podem: realizar matrícula pela aplicação, solicitar histórico, solicitar transferência, consultar notas e frequência.
+- Quando o aluno **solicita transferência**, ela deve ser **aprovada pelo funcionário da secretaria**.
+- A **secretaria** pode cadastrar, alterar, excluir ou consultar um aluno, além de realizar matrículas.
+- Os **professores** podem incluir, alterar, excluir ou consultar notas e frequência dos alunos.
+- Todos os usuários precisam **fazer login**, podendo **fazer logout** e **recuperar a senha**.
+
+**O que fazer:**
+1. Identificar os atores;
+2. Listar os Requisitos Funcionais;
+3. Elaborar o Diagrama de Caso de Uso.
+
+> **Entrega:** subir como `seuusuario/ES2N/Atividade6`
+
+---
+
+## 🛠️ Ferramentas Gratuitas Sugeridas para UML
+
+1. Edraw Max
+2. Lucidchart
+3. Draw.io
+4. Creately
+5. Cacoo
+6. Visual Paradigm
+7. PlantUML
+8. Figma
+9. Miro
+
+---
+
+## ⏭️ Próximos Passos do Projeto Integrador
+
+**Discutido em aula:**
+- Versão Proposta (se aplicável);
+- 1ª versão dos Requisitos Funcionais;
+- 2ª versão dos questionários de pesquisa.
+
+**Para a próxima semana:**
+- Acertar questionários (ou forms) e aplicar a pesquisa (**11/09 a 21/09**);
+- Registrar o resultado da pesquisa no template de pesquisa **versão 3.0** (entrega em **22/09**);
+- Elaborar a **2ª versão dos Requisitos Funcionais**;
+- **Organizar o repositório** no GitHub.
 
 ---
 
 ## 📚 Referências
 
-* BOOCH, Grady et al. **The Unified Modeling Language User Guide**. Addison Wesley, 2005.
-* MEDEIROS, Ernani. **Desenvolvendo Software com UML 2.0: Definitivo**. Makron Books, 2006.
-* PRESSMAN, Roger S. **Engenharia de Software: Uma Abordagem Profissional**. 7ª ed. Porto Alegre: McGraw-Hill, 2011.
-* SOMMERVILLE, Ian. **Engenharia de Software**. 10ª ed. São Paulo: Pearson, 2019.
+- BOOCH, Grady et al. **The Unified Modeling Language User Guide**. Addison Wesley, 2005.
+- MEDEIROS, Ernani. **Desenvolvendo Software com UML 2.0: Definitivo**. Makron Books, 2006.
+- PRESSMAN, Roger S. **Engenharia de Software: Uma Abordagem Profissional**. 7ª ed. Porto Alegre: McGraw-Hill, 2011.
+- SOMMERVILLE, Ian. **Engenharia de Software**. 10ª ed. São Paulo: Pearson, 2019.
 
 ---
 
 ## 👩‍🏫 Professora
 
 **Profª Mª Denilce Veloso**
-📧 `denilce.veloso@fatec.sp.gov.br` | `denilce@gmail.com`
+📧 denilce.veloso@cps.sp.gov.br
+📧 denilce@gmail.com
 
 ---
 

@@ -24,28 +24,11 @@ Compreender e aplicar as etapas finais da Engenharia de Requisitos, focando em:
 
 ---
 
-## 📋 Resolução da Atividade 5
+## 📋 Atividade 5
 
 ### 1. Por que a fase de validação de requisitos é tão crítica e quais as consequências de ignorá-la?
-- **Importância**: A validação assegura que o sistema a ser construído reflete exatamente as necessidades e expectativas do cliente. Como destaca a *Perspectiva de Produto* (Marty Cagan), o maior desperdício em software não é construir de forma ineficiente, mas construir o produto errado.
-- **Consequências de ignorar**: O custo de correção de erros de requisitos cresce exponencialmente nas fases avançadas. Ignorar essa etapa pode resultar em:
-  - Gastos elevados com alocação de profissionais para correções emergenciais;
-  - Inatividade do sistema (*downtime*);
-  - Perda de dados sigilosos e falhas de segurança;
-  - Desperdício de transações financeiras e operacionais;
-  - Danos à reputação e credibilidade da organização.
-
 ### 2. Identificar as cinco principais verificações (ou conferências) que são feitas no processo de validação.
-1. **Verificação da Validade**: Avalia se o sistema oferece as funções que melhor atendem às reais necessidades do cliente e dos usuários finais.
-2. **Verificação da Consistência**: Garante que não existam contradições ou conflitos entre diferentes requisitos especificados.
-3. **Verificação da Completude**: Certifica-se de que todas as funcionalidades, regras de negócio e restrições operacionais solicitadas foram devidamente incluídas.
-4. **Verificação do Realismo**: Examina se os requisitos podem ser efetivamente implementados considerando as limitações tecnológicas, orçamentárias e de prazo.
-5. **Facilidade de Verificação (Verificabilidade)**: Assegura que o requisito é mensurável e testável na prática (através de testes automatizados, inspeções ou documentação).
-
 ### 3. Quais são as três técnicas principais de validação? Explique.
-1. **Revisões de Requisitos**: Análise manual e sistemática conduzida por uma equipe multidisciplinar (clientes e desenvolvedores) para conferir a clareza, completude, consistência e rastreabilidade do documento.
-2. **Prototipação**: Criação de modelos visuais ou executáveis do sistema para permitir que o usuário interaja e valide a dinâmica do software antes da codificação final.
-3. **Geração de Casos de Teste**: Elaboração antecipada de cenários e testes de aceitação derivados dos requisitos para garantir a corretude durante o desenvolvimento.
 
 ---
 

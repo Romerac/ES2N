@@ -161,5 +161,5 @@ Este documento apresenta um mapa mental estruturado sobre as principais metodolo
 
 ---
 
-**👨‍🎓 Atividade concluída por:** [Seu Nome]  
+**👨‍🎓 Atividade concluída por:** [Romerac]  
 **📅 Data de entrega:** [Data]

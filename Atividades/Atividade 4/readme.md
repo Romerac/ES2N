@@ -128,7 +128,6 @@ Estrutura recomendada para a elaboração do *Software Requirements Specificatio
 
 **Profª Mª Denilce Veloso**  
 📧 denilce.veloso@cps.sp.gov.br  
-📧 denilce@gmail.com
 
 ---
 

@@ -99,13 +99,13 @@ Entender esses relacionamentos é essencial para decidir como estruturar a comun
 ### 6. Ponte entre Requisitos e Análise
 A UML atua como ponte entre a **Fase de Especificação dos Requisitos** e a **Fase de Análise**:
 
-'
+
 Especificação dos Requisitos / Modelagem do Contexto do Sistema 
                         ↓ 
        Modelo de Casos de Uso (interseção)
                         ↓
 Modelo de Classes de Análise / Modelo Conceitual
-'
+
 
 ### 7. Casos de Uso
 **Caso de uso** é uma técnica de especificação que descreve uma sequência de ações que o sistema deve realizar para produzir uma resposta a um ator. Ele detalha **o que** o sistema deve fazer (e não como), descrevendo como uma funcionalidade é utilizada por um ator.

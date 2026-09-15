@@ -1,6 +1,14 @@
+![Logo](https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/212/2024/09/logo_fatec_sorocaba.png)
+
 # AULA 2
 
 # 🗺️ Mapa Mental - Desenvolvimento Ágil (SCRUM, XP e RUP)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Desenvolvimento%20Ágil-00599C?style=for-the-badge&logo=scrumalliance&logoColor=white" alt="Desenvolvimento Ágil"/>
+  <img src="https://img.shields.io/badge/SCRUM%20%26%20XP-FF6B00?style=for-the-badge&logo=agile&logoColor=white" alt="SCRUM e XP"/>
+  <img src="https://img.shields.io/badge/RUP-4CAF50?style=for-the-badge&logo=diagramsdotnet&logoColor=white" alt="RUP"/>
+</p>
 
 **Disciplina:** Engenharia de Software II  
 **Atividade:** Mapa Mental sobre Metodologias Ágeis  
@@ -154,6 +162,13 @@ Este documento apresenta um mapa mental estruturado sobre as principais metodolo
   - [Scrum - Aprenda Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
   - [Visão de produto no Scrum](https://www.youtube.com/watch?v=vg1S1WYZa6o)
   - [Scrum - exemplo prático](https://www.youtube.com/watch?v=vpKlvPGaReI)
+
+---
+
+## 👩‍🏫 Professora
+
+**Profª Mª Denilce Veloso**  
+📧 `denilce.veloso@fatec.sp.gov.br`
 
 ---
 

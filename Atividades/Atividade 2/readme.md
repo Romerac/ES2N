@@ -54,8 +54,6 @@ Este documento apresenta um mapa mental estruturado sobre as principais metodolo
 - 👁️ Inspeção
 - 🔧 Adaptação
 
----
-
 ## ⚡ 2. XP (Extreme Programming) - Foco em Práticas Técnicas
 
 ### 💎 Valores
@@ -96,8 +94,6 @@ Este documento apresenta um mapa mental estruturado sobre as principais metodolo
 | **Programador** | Desenvolve o código e aplica as práticas técnicas |
 | **Cliente** | Define histórias de usuário e prioriza funcionalidades |
 | **Rastreador (Tracker)** | Monitora o progresso e ajusta o planejamento |
-
----
 
 ## 📐 3. RUP (Rational Unified Process) - Foco em Estrutura e Disciplina
 

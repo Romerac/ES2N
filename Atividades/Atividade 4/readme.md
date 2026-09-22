@@ -1,5 +1,3 @@
-![Logo](https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/212/2024/09/logo_fatec_sorocaba.png)
-
 # Engenharia de Software 2 – Aula 04: Validação de Requisitos e Estudo de Caso (Sala de Reunião)
 
 <p align="center">

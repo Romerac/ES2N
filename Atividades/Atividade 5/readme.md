@@ -30,30 +30,6 @@ Compreender e aplicar as etapas finais da Engenharia de Requisitos, focando em:
 ### 2. Identificar as cinco principais verificações (ou conferências) que são feitas no processo de validação.
 ### 3. Quais são as três técnicas principais de validação? Explique.
 
----
-
-## 📚 Conteúdo Programático & Conceitos Chave
-
-### 1. Mudança e Evolução de Requisitos
-Os requisitos de um software são dinâmicos e evoluem devido a:
-- Mudanças no ambiente tecnológico (SO, hardware ou integrações);
-- Alterações em legislações e normas regulatórias (ex.: LGPD);
-- Conflitos de interesses entre quem financia o sistema (clientes) e quem o opera (usuários finais);
-- Amadurecimento do entendimento do problema durante o desenvolvimento.
-
-### 2. Rastreabilidade de Requisitos
-Capacidade de acompanhar o histórico e os relacionamentos de cada requisito ao longo do ciclo de vida:
-- **Rastreabilidade da Fonte**: Associa o requisito aos *stakeholders* que o solicitaram.
-- **Rastreabilidade de Requisitos Dependentes**: Mapeia o vínculo e a interdependência entre os próprios requisitos.
-- **Rastreabilidade de Projeto**: Conecta os requisitos aos componentes arquiteturais, módulos de código e tabelas do banco de dados.
-- **Matriz de Rastreabilidade**: Tabela utilizada para visualizar relacionamentos ($R$) e dependências ($D$) diretas entre requisitos.
-
-
-### 3. Ferramentas Recomendadas
-- **Gerenciamento de Requisitos Especializado**: Visure Requirements, IBM Rational DOORS, Jama Software, Helix ALM, ReQtest.
-- **Gestão Ágil e de Projetos**: Jira, Azure DevOps, Trello, Asana.
-
----
 
 ## 📚 Referências
 

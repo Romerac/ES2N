@@ -1,5 +1,3 @@
-![Logo](https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/212/2024/09/logo_fatec_sorocaba.png)
-
 # Engenharia de Requisitos: Projeto e Implementação - Aula 06
 
 <p align="center">

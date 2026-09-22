@@ -1,115 +1,90 @@
-# Engenharia de Software 2 – Aula 04: Engenharia de Requisitos: Elicitação e Especificação
+![Logo](https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/212/2024/09/logo_fatec_sorocaba.png)
+
+# Engenharia de Software 2 – Aula 04: Validação de Requisitos e Estudo de Caso (Sala de Reunião)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Engenharia%20de%20Requisitos-00599C?style=for-the-badge&logo=bookstack&logoColor=white" alt="Engenharia de Requisitos"/>
-  <img src="https://img.shields.io/badge/Elicitação%20%26%20Análise-FF6B00?style=for-the-badge&logo=target&logoColor=white" alt="Elicitação & Análise"/>
-  <img src="https://img.shields.io/badge/Especificação%20IEEE%20830-4CAF50?style=for-the-badge&logo=ieee&logoColor=white" alt="Especificação IEEE 830"/>
+  <img src="https://img.shields.io/badge/Engenharia%20de%20Requisitos-00599C?style=for-the-badge&logo=diagramsdotnet&logoColor=white" alt="Engenharia de Requisitos"/>
+  <img src="https://img.shields.io/badge/Especificação-FF6B00?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Especificação"/>
+  <img src="https://img.shields.io/badge/Casos%20de%20Uso-4CAF50?style=for-the-badge&logo=unifiedmodelinglanguage&logoColor=white" alt="Casos de Uso"/>
 </p>
 
-Este material sintetiza o conteúdo ministrado na **Aula 4** da disciplina de **Engenharia de Software 2**, pela Profª Mª Denilce Veloso, abordando as atividades fundamentais do processo de software, técnicas de **Elicitação e Análise de Requisitos**, modelos de **Especificação de Requisitos** e a estrutura do **Padrão IEEE/ANSI 830/1998**.
+Este documento contém a resolução completa da **Atividade 4** da disciplina de **Engenharia de Software 2**, ministrada pela **Profª Mª Denilce Veloso**. A atividade aborda a análise da situação atual, o levantamento de problemas, a proposta de solução e a especificação dos Requisitos Funcionais para o estudo de caso **Sistema de Gestão de Salas de Reunião**.
 
 ---
 
-## 🎯 Objetivo da Aula
+## 📌 Contexto do Problema (Sala de Reunião)
 
-Compreender e aplicar os conceitos fundamentais da Engenharia de Requisitos, focando em:
+Patrícia é secretária e tem como responsabilidade controlar a utilização de três salas de reunião (Sala 101, Sala 105 e Sala 201), que são utilizadas por todos os setores da empresa.
 
-- **Atividades do Processo de Software**: Identificar as etapas de Especificação, Desenvolvimento, Validação e Evolução.
-- **Elicitação e Descoberta de Requisitos**: Dominar as técnicas de coleta com *stakeholders* e identificar os principais desafios do processo.
-- **Técnicas Práticas**: Aplicar entrevistas (abertas/fechadas), etnografia (observação do fluxo real e *workarounds*) e o uso de histórias e cenários.
-- **Especificação e Notações**: Diferenciar requisitos de usuário e de sistema utilizando Linguagem Natural, Estruturada, Notações Gráficas (Casos de Uso UML) e Especificações Matemáticas.
-- **Documentação de Requisitos**: Estruturar a Especificação de Requisitos de Software (SRS) segundo a norma **IEEE/ANSI 830/1998**.
+Atualmente, o controlo é realizado manualmente através de ficheiros do Excel (uma pasta de trabalho por mês, contendo entre 28 e 31 folhas de cálculo, uma para cada dia do mês). Nas folhas de cálculo, existem colunas de horários e três colunas dedicadas às salas. Adicionalmente, num registo separado, a secretária mantém os dados dos colaboradores (nome, cargo e ramal).
 
 ---
 
-## 📋 Conteúdo Programático
+## 🔍 1. Análise da Situação Atual e Problemas Identificados
 
-### 1. Atividades Fundamentais do Processo de Software
-De acordo com Sommerville (2019), todo processo de desenvolvimento inclui quatro atividades essenciais:
+### **Situação Atual**
+* O processo de agendamento e controlo é totalmente manual e descentralizado.
+* A informação está fragmentada em 12 ficheiros anuais do Excel, dezenas de abas diárias e um registo paralelo com os dados dos funcionários.
+* As realocações de reuniões (mudança de sala, data e/ou horário) e as consultas de disponibilidade efetuadas pelos Diretores ocorrem com elevada frequência.
 
-1. **Especificação**: Definição clara do que o sistema deve fazer e das suas restrições de operação.
-2. **Desenvolvimento**: Fase de projeto (arquitetura/design) e programação do software.
-3. **Validação**: Assegurar que o sistema atende rigorosamente às necessidades e demandas do cliente.
-4. **Evolução**: Adequação e modificação do software para atender a novas necessidades do cliente e mudanças do mercado.
+### **Problemas Identificados**
+* **Fragmentação e Descentralização dos Dados**: Informação dispersa em múltiplos ficheiros e registos externos, dificultando a manutenção e a integridade dos dados.
+* **Elevado Risco de Conflitos de Horário (*Double-Booking*)**: A alteração manual de datas, salas e horários em folhas de cálculo separadas propicia erros humanos e sobreposição de marcações.
+* **Lentidão no Atendimento a Consultas**: Responder a solicitações dos Diretores sobre salas livres numa determinada data e faixa horária exige a verificação manual folha a folha, gerando ineficiência operacional.
+* **Falta de Informação Integrada**: A capacidade máxima (número de lugares) das salas não está visível de forma direta no mapa de agendamento principal.
+* **Ausência de Histórico e Indicadores**: Dificuldade em extrair relatórios de taxa de ocupação, utilização por setor ou histórico de alterações.
 
-### 2. Engenharia de Requisitos – Elicitação de Requisitos
-A elicitação (ou descoberta) ocorre após o estudo de viabilidade, onde a equipe técnica trabalha diretamente com os **stakeholders** (usuários finais, gerentes, equipe de manutenção, especialistas de domínio, etc.) para mapear os serviços do sistema e suas restrições.
+---
 
-#### ⚠️ Principais Desafios da Elicitação:
-- *Stakeholders* não sabem exatamente o que querem ou usam linguagem informal/ambígua.
-- Conflitos de interesses e requisitos entre diferentes perfis de usuários.
-- Mudanças contínuas no ambiente de negócios e dinâmica dos *stakeholders*.
-- Fatores organizacionais e políticos que influenciam as decisões.
+## 💡 2. Proposta de Solução
 
-#### 🔄 Etapas do Ciclo Iterativo de Elicitação e Análise:
-1. **Descoberta e Compreensão**: Interação ativa para identificar os requisitos do sistema e do domínio.
-2. **Classificação e Organização**: Agrupamento dos requisitos relacionados em blocos coerentes.
-3. **Priorização e Negociação**: Resolução de conflitos de requisitos e ordenação por grau de relevância.
-4. **Documentação / Especificação**: Registro formal dos requisitos para realimentar as próximas iterações.
+Desenvolvimento do **Sistema Web de Gestão e Agendamento de Salas de Reunião**, uma plataforma centralizada e acessível em tempo real via navegador.
 
-### 3. Técnicas de Elicitação de Requisitos
+### **Principais Funcionalidades da Solução proposta:**
+* **Mapa de Agendamento Interativo**: Visualização dinâmica da agenda (diária, semanal e mensal) com indicação do estado das salas e respetiva lotação.
+* **Procura Automatizada de Disponibilidade**: Filtro inteligente que permite encontrar salas livres informando a data, intervalo de horário e número de lugares necessários.
+* **Validação Automática de Conflitos**: Impedimento automático de sobreposição de horários no momento da reserva ou realocação.
+* **Registo Unificado de Colaboradores e Salas**: Centralização dos dados dos funcionários (nome, cargo, ramal e setor) e das salas (código, localização e capacidade de lugares).
+* **Notificações Automáticas**: Envio de confirmações e alertas por e-mail aos participantes sempre que uma reunião for agendada, alterada ou cancelada.
 
-- **Entrevistas**:
-  - *Fechadas*: Baseadas em uma lista pré-determinada de perguntas.
-  - *Abertas*: Discussão livre e exploração de diversas questões com os *stakeholders*.
-  - *Boas Práticas*: Manter a mente aberta, evitar ideias pré-concebidas, utilizar protótipos e incentivar o entrevistado a guiá-lo pelo fluxo operacional.
-- **Etnografia (Observação)**:
-  - Observação direta das pessoas executando seu trabalho para entender os artefatos reais utilizados.
-  - *Etnografia Focada*: Foco em problemas específicos, revelando *workarounds* (gambiarras), interrupções do ambiente físico e o fluxo de trabalho real (não documentado).
-- **Histórias e Cenários**:
-  - *Histórias*: Narrativas práticas e sem termos técnicos que facilitam a empatia dos *stakeholders*.
-  - *Cenários*: Descrições mais estruturadas e técnicas da interação passo a passo entre usuário e sistema.
+---
 
-### 4. Especificação de Requisitos & Notações
+## 📝 3. Lista de Requisitos Funcionais (RFs)
 
-A especificação visa registrar os requisitos em um documento formal:
-- **Requisitos de Usuário**: Escritos em linguagem acessível a clientes e usuários finais sem conhecimento técnico.
-- **Requisitos de Sistema**: Descrições detalhadas e técnicas que servem de base para desenvolvimento e contratos.
+### **Gestão de Infraestrutura e Utilizadores**
+* **RF01 - Manter Registo de Salas**: O sistema deve permitir registar, alterar, consultar e inativar salas de reunião, armazenando a identificação (ex.: Sala 101), localização e capacidade máxima de lugares.
+* **RF02 - Manter Registo de Colaboradores**: O sistema deve permitir registar, alterar, consultar e inativar colaboradores, armazenando nome, cargo, ramal, e-mail e setor.
 
-| Notação | Descrição | Exemplo Prático |
-| :--- | :--- | :--- |
-| **Linguagem Natural** | Frases numeradas claras. Usa-se *"deve"* para requisitos obrigatórios e *"pode"* para desejáveis. | *"O sistema deve medir o nível de açúcar no sangue a cada 10 minutos."* |
-| **Linguagem Natural Estruturada** | Formato baseado em formulários ou *templates* com campos específicos (Entradas, Saídas, Ações, Pré/Pós-condições). | *Especificação de controle da bomba de insulina (DoseComp).* |
-| **Notações Gráficas** | Modelos visuais (UML) acompanhados de documentação textual. | *Diagramas de Casos de Uso (`<<include>>`, `<<extend>>`) para Ponto Biométrico ou Sistema Bancário.* |
-| **Especificações Matemáticas** | Expressões formais inequívocas para reduzir ambiguidades em sistemas críticos. | *Fórmulas explícitas para cálculo de produção ou lucro semanal.* |
+### **Agendamento e Movimentação**
+* **RF03 - Efetuar Agendamento de Reunião**: O sistema deve permitir agendar uma reunião selecionando a sala, data, horário de início, horário de término, assunto e o colaborador responsável.
+* **RF04 - Realocar Reunião**: O sistema deve permitir alterar a sala, data e/ou horário de uma reunião já agendada, revalidando a disponibilidade da nova opção.
+* **RF05 - Cancelar Agendamento**: O sistema deve permitir o cancelamento de uma reunião agendada, libertando instantaneamente a sala no mapa de reservas.
 
-#### ⚠️ Cuidados ao Redigir em Linguagem Natural:
-- Evitar a **Falta de Clareza** (ambiguidade), **Confusão de Requisitos** (misturar funcionais com não funcionais) e **Fusão de Requisitos** (agrupar múltiplos requisitos em uma só frase).
+### **Consultas e Validações**
+* **RF06 - Validar Conflitos de Horário**: O sistema deve impedir automaticamente o agendamento ou a realocação de reuniões em salas, datas e horários coincidentes.
+* **RF07 - Consultar Salas Livres**: O sistema deve permitir pesquisar salas disponíveis filtrando por data, faixa horária e/ou capacidade mínima de lugares.
+* **RF08 - Visualizar Agenda das Salas**: O sistema deve disponibilizar uma visualização em grelha/calendário do mapa de ocupação diário, semanal e mensal de todas as salas.
 
-### 5. Documento de Requisitos de Software (Padrão IEEE/ANSI 830/1998)
+### **Notificações e Relatórios**
+* **RF09 - Enviar Notificação de Agendamento**: O sistema deve enviar um e-mail de notificação ao colaborador responsável sempre que uma reunião for marcada, realocada ou cancelada.
+* **RF10 - Emitir Relatórios de Utilização**: O sistema deve gerar relatórios estatísticos sobre a taxa de ocupação das salas por período e por setor solicitante.
 
-Estrutura recomendada para a elaboração do *Software Requirements Specification* (SRS):
+---
 
-1. **Introdução**
-   - 1.1 Propósito do documento de requisitos
-   - 1.2 Escopo do produto
-   - 1.3 Definições, siglas e abreviaturas
-   - 1.4 Referências
-   - 1.5 Visão geral do restante do documento
-2. **Descrição Geral**
-   - 2.1 Perspectiva do produto
-   - 2.2 Funções do produto
-   - 2.3 Características dos usuários
-   - 2.4 Restrições gerais
-   - 2.5 Suposições e dependências
-3. **Requisitos Específicos** (Requisitos Funcionais e Não Funcionais)
-4. **Índice**
-5. **Apêndices**
 
 ---
 
 ## 📚 Referências
 
-- MACHADO, Felipe Nery Rodrigues. **Análise e gestão de requisitos de software: onde nascem os sistemas**. 1ª ed. São Paulo: Érica, 2011.
-- PRESSMAN, Roger S. **Engenharia de Software: Uma Abordagem Profissional**. 7ª ed. Porto Alegre: McGraw-Hill, 2011.
-- SOMMERVILLE, Ian. **Engenharia de Software**. 10ª ed. São Paulo: Pearson, 2019.
+* PRESSMAN, Roger S. **Engenharia de Software: Uma Abordagem Profissional**. 7ª ed. Porto Alegre: McGraw-Hill, 2011.
+* SOMMERVILLE, Ian. **Engenharia de Software**. 10ª ed. São Paulo: Pearson, 2019.
 
 ---
 
 ## 👩‍🏫 Professora
 
 **Profª Mª Denilce Veloso**  
-📧 denilce.veloso@cps.sp.gov.br  
+📧 `denilce.veloso@cps.sp.gov.br` | `denilce.veloso@fatec.sp.gov.br`
 
 ---
 

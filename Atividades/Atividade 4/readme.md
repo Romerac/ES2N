@@ -36,44 +36,6 @@ Atualmente, o controlo é realizado manualmente através de ficheiros do Excel (
 
 ---
 
-## 💡 2. Proposta de Solução
-
-Desenvolvimento do **Sistema Web de Gestão e Agendamento de Salas de Reunião**, uma plataforma centralizada e acessível em tempo real via navegador.
-
-### **Principais Funcionalidades da Solução proposta:**
-* **Mapa de Agendamento Interativo**: Visualização dinâmica da agenda (diária, semanal e mensal) com indicação do estado das salas e respetiva lotação.
-* **Procura Automatizada de Disponibilidade**: Filtro inteligente que permite encontrar salas livres informando a data, intervalo de horário e número de lugares necessários.
-* **Validação Automática de Conflitos**: Impedimento automático de sobreposição de horários no momento da reserva ou realocação.
-* **Registo Unificado de Colaboradores e Salas**: Centralização dos dados dos funcionários (nome, cargo, ramal e setor) e das salas (código, localização e capacidade de lugares).
-* **Notificações Automáticas**: Envio de confirmações e alertas por e-mail aos participantes sempre que uma reunião for agendada, alterada ou cancelada.
-
----
-
-## 📝 3. Lista de Requisitos Funcionais (RFs)
-
-### **Gestão de Infraestrutura e Utilizadores**
-* **RF01 - Manter Registo de Salas**: O sistema deve permitir registar, alterar, consultar e inativar salas de reunião, armazenando a identificação (ex.: Sala 101), localização e capacidade máxima de lugares.
-* **RF02 - Manter Registo de Colaboradores**: O sistema deve permitir registar, alterar, consultar e inativar colaboradores, armazenando nome, cargo, ramal, e-mail e setor.
-
-### **Agendamento e Movimentação**
-* **RF03 - Efetuar Agendamento de Reunião**: O sistema deve permitir agendar uma reunião selecionando a sala, data, horário de início, horário de término, assunto e o colaborador responsável.
-* **RF04 - Realocar Reunião**: O sistema deve permitir alterar a sala, data e/ou horário de uma reunião já agendada, revalidando a disponibilidade da nova opção.
-* **RF05 - Cancelar Agendamento**: O sistema deve permitir o cancelamento de uma reunião agendada, libertando instantaneamente a sala no mapa de reservas.
-
-### **Consultas e Validações**
-* **RF06 - Validar Conflitos de Horário**: O sistema deve impedir automaticamente o agendamento ou a realocação de reuniões em salas, datas e horários coincidentes.
-* **RF07 - Consultar Salas Livres**: O sistema deve permitir pesquisar salas disponíveis filtrando por data, faixa horária e/ou capacidade mínima de lugares.
-* **RF08 - Visualizar Agenda das Salas**: O sistema deve disponibilizar uma visualização em grelha/calendário do mapa de ocupação diário, semanal e mensal de todas as salas.
-
-### **Notificações e Relatórios**
-* **RF09 - Enviar Notificação de Agendamento**: O sistema deve enviar um e-mail de notificação ao colaborador responsável sempre que uma reunião for marcada, realocada ou cancelada.
-* **RF10 - Emitir Relatórios de Utilização**: O sistema deve gerar relatórios estatísticos sobre a taxa de ocupação das salas por período e por setor solicitante.
-
----
-
-
----
-
 ## 📚 Referências
 
 * PRESSMAN, Roger S. **Engenharia de Software: Uma Abordagem Profissional**. 7ª ed. Porto Alegre: McGraw-Hill, 2011.
@@ -84,7 +46,7 @@ Desenvolvimento do **Sistema Web de Gestão e Agendamento de Salas de Reunião**
 ## 👩‍🏫 Professora
 
 **Profª Mª Denilce Veloso**  
-📧 `denilce.veloso@cps.sp.gov.br` | `denilce.veloso@fatec.sp.gov.br`
+📧 `denilce.veloso@cps.sp.gov.br`
 
 ---
 

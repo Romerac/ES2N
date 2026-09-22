@@ -1,6 +1,4 @@
-![Logo](https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/212/2024/09/logo_fatec_sorocaba.png)
-
-# Engenharia de Requisitos: Elicitação e Especificação - Aula 04
+# Engenharia de Software 2 – Aula 04: Engenharia de Requisitos: Elicitação e Especificação
 
 <p align="center">
   <img src="https://img.shields.io/badge/Engenharia%20de%20Requisitos-00599C?style=for-the-badge&logo=bookstack&logoColor=white" alt="Engenharia de Requisitos"/>

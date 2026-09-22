@@ -1,4 +1,4 @@
-# Engenharia de Requisitos: Projeto e Implementação - Aula 06
+# # Engenharia de Software 2 – Aula 06: Engenharia de Requisitos: Projeto e Implementação
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projeto%20e%20Implementação-FF6B00?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Projeto e Implementação"/>

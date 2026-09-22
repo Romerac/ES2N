@@ -43,7 +43,7 @@ Compreender e aplicar as etapas finais da Engenharia de Requisitos, focando em:
 ## 👩‍🏫 Professora
 
 **Profª Mª Denilce Veloso**  
-📧 denilce.veloso@fatec.sp.gov.br
+📧 denilce.veloso@cps.sp.gov.br
 
 ---
 

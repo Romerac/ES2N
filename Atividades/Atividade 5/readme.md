@@ -1,6 +1,6 @@
-![Logo](https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/212/2024/09/logo_fatec_sorocaba.png)
+#Engenharia de Software 2 – Aula 05: Engenharia de Requisitos: Validação e Gerenciamento
 
-# Engenharia de Requisitos: Validação e Gerenciamento - Aula 05
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Validação%20de%20Requisitos-FF6B00?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Validação de Requisitos"/>

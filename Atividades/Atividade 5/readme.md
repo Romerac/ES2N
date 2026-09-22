@@ -30,6 +30,7 @@ Compreender e aplicar as etapas finais da Engenharia de Requisitos, focando em:
 ### 2. Identificar as cinco principais verificações (ou conferências) que são feitas no processo de validação.
 ### 3. Quais são as três técnicas principais de validação? Explique.
 
+---
 
 ## 📚 Referências
 

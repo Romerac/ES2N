@@ -1,4 +1,4 @@
-# Engenharia de Software 2 – Aula 06: Projeto, Implementação e Modelagem UML
+# Engenharia de Software 2 – Aula 07: Continuação de Projeto, Implementação e Modelagem UML
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projeto%20%26%20Implementação-00599C?style=for-the-badge&logo=diagramsdotnet&logoColor=white" alt="Projeto e Implementação"/>

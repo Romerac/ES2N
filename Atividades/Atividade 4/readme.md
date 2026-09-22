@@ -20,22 +20,6 @@ Atualmente, o controlo é realizado manualmente através de ficheiros do Excel (
 
 ---
 
-## 🔍 1. Análise da Situação Atual e Problemas Identificados
-
-### **Situação Atual**
-* O processo de agendamento e controlo é totalmente manual e descentralizado.
-* A informação está fragmentada em 12 ficheiros anuais do Excel, dezenas de abas diárias e um registo paralelo com os dados dos funcionários.
-* As realocações de reuniões (mudança de sala, data e/ou horário) e as consultas de disponibilidade efetuadas pelos Diretores ocorrem com elevada frequência.
-
-### **Problemas Identificados**
-* **Fragmentação e Descentralização dos Dados**: Informação dispersa em múltiplos ficheiros e registos externos, dificultando a manutenção e a integridade dos dados.
-* **Elevado Risco de Conflitos de Horário (*Double-Booking*)**: A alteração manual de datas, salas e horários em folhas de cálculo separadas propicia erros humanos e sobreposição de marcações.
-* **Lentidão no Atendimento a Consultas**: Responder a solicitações dos Diretores sobre salas livres numa determinada data e faixa horária exige a verificação manual folha a folha, gerando ineficiência operacional.
-* **Falta de Informação Integrada**: A capacidade máxima (número de lugares) das salas não está visível de forma direta no mapa de agendamento principal.
-* **Ausência de Histórico e Indicadores**: Dificuldade em extrair relatórios de taxa de ocupação, utilização por setor ou histórico de alterações.
-
----
-
 ## 📚 Referências
 
 * PRESSMAN, Roger S. **Engenharia de Software: Uma Abordagem Profissional**. 7ª ed. Porto Alegre: McGraw-Hill, 2011.
